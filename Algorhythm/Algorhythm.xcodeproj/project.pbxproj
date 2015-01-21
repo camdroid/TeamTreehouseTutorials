@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD7132B91A6F3FD100C7184B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7132B81A6F3FD100C7184B /* AppDelegate.swift */; };
+		FD7132BB1A6F3FD100C7184B /* PlaylistMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7132BA1A6F3FD100C7184B /* PlaylistMasterViewController.swift */; };
+		FD7132BE1A6F3FD100C7184B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD7132BC1A6F3FD100C7184B /* Main.storyboard */; };
+		FD7132C01A6F3FD100C7184B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD7132BF1A6F3FD100C7184B /* Images.xcassets */; };
+		FD7132CC1A6F3FD100C7184B /* AlgorhythmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7132CB1A6F3FD100C7184B /* AlgorhythmTests.swift */; };
+		FD7132D61A6F422400C7184B /* PlaylistDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7132D51A6F422400C7184B /* PlaylistDetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD7132C61A6F3FD100C7184B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD7132AB1A6F3FD100C7184B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD7132B21A6F3FD100C7184B;
+			remoteInfo = Algorhythm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD7132B31A6F3FD100C7184B /* Algorhythm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algorhythm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD7132B71A6F3FD100C7184B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD7132B81A6F3FD100C7184B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD7132BA1A6F3FD100C7184B /* PlaylistMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistMasterViewController.swift; sourceTree = "<group>"; };
+		FD7132BD1A6F3FD100C7184B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD7132BF1A6F3FD100C7184B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FD7132C51A6F3FD100C7184B /* AlgorhythmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgorhythmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD7132CA1A6F3FD100C7184B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD7132CB1A6F3FD100C7184B /* AlgorhythmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorhythmTests.swift; sourceTree = "<group>"; };
+		FD7132D51A6F422400C7184B /* PlaylistDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistDetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD7132B01A6F3FD100C7184B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD7132C21A6F3FD100C7184B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD7132AA1A6F3FD100C7184B = {
+			isa = PBXGroup;
+			children = (
+				FD7132B51A6F3FD100C7184B /* Algorhythm */,
+				FD7132C81A6F3FD100C7184B /* AlgorhythmTests */,
+				FD7132B41A6F3FD100C7184B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD7132B41A6F3FD100C7184B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD7132B31A6F3FD100C7184B /* Algorhythm.app */,
+				FD7132C51A6F3FD100C7184B /* AlgorhythmTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD7132B51A6F3FD100C7184B /* Algorhythm */ = {
+			isa = PBXGroup;
+			children = (
+				FD7132B81A6F3FD100C7184B /* AppDelegate.swift */,
+				FD7132BA1A6F3FD100C7184B /* PlaylistMasterViewController.swift */,
+				FD7132D51A6F422400C7184B /* PlaylistDetailViewController.swift */,
+				FD7132BC1A6F3FD100C7184B /* Main.storyboard */,
+				FD7132BF1A6F3FD100C7184B /* Images.xcassets */,
+				FD7132B61A6F3FD100C7184B /* Supporting Files */,
+			);
+			path = Algorhythm;
+			sourceTree = "<group>";
+		};
+		FD7132B61A6F3FD100C7184B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD7132B71A6F3FD100C7184B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD7132C81A6F3FD100C7184B /* AlgorhythmTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD7132CB1A6F3FD100C7184B /* AlgorhythmTests.swift */,
+				FD7132C91A6F3FD100C7184B /* Supporting Files */,
+			);
+			path = AlgorhythmTests;
+			sourceTree = "<group>";
+		};
+		FD7132C91A6F3FD100C7184B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD7132CA1A6F3FD100C7184B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD7132B21A6F3FD100C7184B /* Algorhythm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD7132CF1A6F3FD100C7184B /* Build configuration list for PBXNativeTarget "Algorhythm" */;
+			buildPhases = (
+				FD7132AF1A6F3FD100C7184B /* Sources */,
+				FD7132B01A6F3FD100C7184B /* Frameworks */,
+				FD7132B11A6F3FD100C7184B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Algorhythm;
+			productName = Algorhythm;
+			productReference = FD7132B31A6F3FD100C7184B /* Algorhythm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD7132C41A6F3FD100C7184B /* AlgorhythmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD7132D21A6F3FD100C7184B /* Build configuration list for PBXNativeTarget "AlgorhythmTests" */;
+			buildPhases = (
+				FD7132C11A6F3FD100C7184B /* Sources */,
+				FD7132C21A6F3FD100C7184B /* Frameworks */,
+				FD7132C31A6F3FD100C7184B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD7132C71A6F3FD100C7184B /* PBXTargetDependency */,
+			);
+			name = AlgorhythmTests;
+			productName = AlgorhythmTests;
+			productReference = FD7132C51A6F3FD100C7184B /* AlgorhythmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD7132AB1A6F3FD100C7184B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = camdroid;
+				TargetAttributes = {
+					FD7132B21A6F3FD100C7184B = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					FD7132C41A6F3FD100C7184B = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = FD7132B21A6F3FD100C7184B;
+					};
+				};
+			};
+			buildConfigurationList = FD7132AE1A6F3FD100C7184B /* Build configuration list for PBXProject "Algorhythm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD7132AA1A6F3FD100C7184B;
+			productRefGroup = FD7132B41A6F3FD100C7184B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD7132B21A6F3FD100C7184B /* Algorhythm */,
+				FD7132C41A6F3FD100C7184B /* AlgorhythmTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD7132B11A6F3FD100C7184B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD7132BE1A6F3FD100C7184B /* Main.storyboard in Resources */,
+				FD7132C01A6F3FD100C7184B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD7132C31A6F3FD100C7184B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD7132AF1A6F3FD100C7184B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD7132D61A6F422400C7184B /* PlaylistDetailViewController.swift in Sources */,
+				FD7132BB1A6F3FD100C7184B /* PlaylistMasterViewController.swift in Sources */,
+				FD7132B91A6F3FD100C7184B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD7132C11A6F3FD100C7184B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD7132CC1A6F3FD100C7184B /* AlgorhythmTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD7132C71A6F3FD100C7184B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD7132B21A6F3FD100C7184B /* Algorhythm */;
+			targetProxy = FD7132C61A6F3FD100C7184B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD7132BC1A6F3FD100C7184B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD7132BD1A6F3FD100C7184B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD7132CD1A6F3FD100C7184B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD7132CE1A6F3FD100C7184B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD7132D01A6F3FD100C7184B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Algorhythm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FD7132D11A6F3FD100C7184B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Algorhythm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FD7132D31A6F3FD100C7184B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AlgorhythmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Algorhythm.app/Algorhythm";
+			};
+			name = Debug;
+		};
+		FD7132D41A6F3FD100C7184B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AlgorhythmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Algorhythm.app/Algorhythm";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD7132AE1A6F3FD100C7184B /* Build configuration list for PBXProject "Algorhythm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD7132CD1A6F3FD100C7184B /* Debug */,
+				FD7132CE1A6F3FD100C7184B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD7132CF1A6F3FD100C7184B /* Build configuration list for PBXNativeTarget "Algorhythm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD7132D01A6F3FD100C7184B /* Debug */,
+				FD7132D11A6F3FD100C7184B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FD7132D21A6F3FD100C7184B /* Build configuration list for PBXNativeTarget "AlgorhythmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD7132D31A6F3FD100C7184B /* Debug */,
+				FD7132D41A6F3FD100C7184B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD7132AB1A6F3FD100C7184B /* Project object */;
+}
